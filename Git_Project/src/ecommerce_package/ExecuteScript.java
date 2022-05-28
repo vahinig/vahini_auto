@@ -18,7 +18,7 @@ public class ExecuteScript {
 				driver=new ChromeDriver();
 				driver.get("http://automationpractice.com/index.php");
 			    driver.manage().window().maximize();
-			   Thread.sleep(5000);
+			    Thread.sleep(5000);
 
 	}
 	
