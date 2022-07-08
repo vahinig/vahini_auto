@@ -16,7 +16,7 @@ public class ExecuteScript {
 		
 	public void browserLogin() throws InterruptedException {
 		       
-		        //absolute path of the chrome driver type of driver, driver path in our system
+		        //absolute path of the Chrome driver type of driver, driver path in our system
 		        System.setProperty("webdriver.chrome.driver", "C:\\Users\\VahiniGannavarapu\\Chrome_Driver\\chromedriver.exe");
 				driver=new ChromeDriver();
 				driver.get("http://automationpractice.com/index.php");
