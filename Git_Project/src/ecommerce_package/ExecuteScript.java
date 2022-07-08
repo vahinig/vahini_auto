@@ -8,12 +8,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+
+
 public class ExecuteScript {
 	
-	WebDriver driver;
+	 WebDriver driver;
 		
 	public void browserLogin() throws InterruptedException {
 		       
+		        //absolute path of the chrome driver
 		        System.setProperty("webdriver.chrome.driver", "C:\\Users\\VahiniGannavarapu\\Chrome_Driver\\chromedriver.exe");
 				driver=new ChromeDriver();
 				driver.get("http://automationpractice.com/index.php");
