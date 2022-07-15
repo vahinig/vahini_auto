@@ -35,6 +35,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown()
 	{
+		//calling quitBrowser method
 		BrowserFactory.quitBrowser(driver);
 	}
 	
